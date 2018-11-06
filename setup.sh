@@ -4,3 +4,4 @@ function dotfiles {
 }
 dotfiles checkout
 dotfiles config status.showUntrackedFiles no
+rm $HOME/README.md $HOME/LICENSE $HOME/setup.sh
