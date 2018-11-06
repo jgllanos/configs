@@ -3,9 +3,11 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set autoindent
+set smartindent
 
 "turn on line numbers
-set number
+"set number
 "turn on a line at 80 chars
 set cc=80
 "don't wrap lines of text
@@ -13,3 +15,4 @@ set nowrap
 "highlight results if you search
 set hlsearch
 
+syntax on 
