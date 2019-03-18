@@ -8,5 +8,5 @@ echo "alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOM
 dotfiles checkout
 dotfiles config status.showUntrackedFiles no
 
-dotfiles update-index --skip-worktree README.md setup.sh LICENSE
+dotfiles update-index --skip-worktree $HOME/README.md $HOME/LICENSE $HOME/setup.sh
 rm $HOME/README.md $HOME/LICENSE $HOME/setup.sh
