@@ -4,4 +4,5 @@ function dotfiles {
 }
 dotfiles checkout
 dotfiles config status.showUntrackedFiles no
+echo "alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
 rm $HOME/README.md $HOME/LICENSE $HOME/setup.sh
