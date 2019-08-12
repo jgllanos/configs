@@ -1,0 +1,8 @@
+[user]
+    name = Juan G. Llanos
+    email = git@jgllanos.com
+[alias]
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
