@@ -8,5 +8,8 @@
 ehthumbs.db
 Thumbs.db
 
+# Environment files
+.env
+
 # Directory for scratch files
 scratches/
